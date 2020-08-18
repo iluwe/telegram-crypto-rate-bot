@@ -1,6 +1,6 @@
 import re
 from flask_sslify import SSLify
-from flask import Flask, request, jsonify
+from flask import Flask, request
 from app.api_requester import *
 from dotenv import load_dotenv
 
