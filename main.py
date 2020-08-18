@@ -11,10 +11,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 app = Flask(__name__)
 sslify = SSLify(app)
 
-
 URL = f'https://api.telegram.org/bot{BOT_TOKEN}/'
-
-#https://api.telegram.org/bot{BOT_TOKEN}/setWebhook?url={HOST}/{BOT_TOKEN}
 
 
 def send_message(chat_id, text):
